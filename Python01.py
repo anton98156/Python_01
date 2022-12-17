@@ -22,6 +22,16 @@
 # 2 Напишите программу для. проверки истинности утверждения 
 # ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 
+# for i in 1,2,3,4,5,6,7,8:
+#     print(i)
+
+# for x in [True,False]:
+#     for y in [True,False]:
+#         for z in [True,False]:
+#             if not (x and y and z) == (not x) or (not y) or (not z):
+#                 print(True)
+#             else:
+#                 print(False)
 
 # 3 Напишите программу, которая принимает на вход координаты точки (X и Y), 
 # причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, 
